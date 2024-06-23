@@ -1,0 +1,15 @@
+.header {
+    background-color: white;
+    color: #3F597B;
+    width: 100%; /* Assure que le header prend toute la largeur de l'écran */
+    
+  }
+  
+  .container {
+    display: flex;
+    justify-content: flex-start; /* Aligne les éléments à gauche */
+    align-items: center; /* Centre les éléments verticalement */
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 1rem;
+  }
