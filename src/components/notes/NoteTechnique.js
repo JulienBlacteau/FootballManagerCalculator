@@ -4,22 +4,19 @@ import './NoteStyle.css';
 
 const Technique = () => {
 
-  console.log(Attributs)
   return (
     <div className="notestyle-container">
       <h3 className="notestyle-title">TECHNIQUE</h3>
         {
-            Attributs.map( attribut =>{
-
-              return(
-                <div className="notestyle-attribute" key={ attribut.id }>
-                  {attribut.name}
-                </div>   
-              )
-            
-            })
-          }
-              
+          Attributs.map( attribut =>{
+            return(
+              <div className="notestyle-attribute" key={ attribut.id }>
+                <label>{attribut.name}</label>
+                <input min="1" max="20"/>
+              </div>   
+            )
+          })
+        }   
     </div>
   );
 };
