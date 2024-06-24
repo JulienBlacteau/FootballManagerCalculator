@@ -1,30 +1,47 @@
-[
-    {   "id" : 1,
-        "name": "Centres"},
-    {   "id" : 2,
-        "name":"Contrôle de balle"},
-    {   "id" : 3,
-        "name":"Corners"},
-    {   "id" : 4,
-        "name":"Coup francs"},
-    {   "id" : 5,
-        "name":"Dribbles"},
-    {   "id" : 6,
-        "name":"Finition"},
-    {   "id" : 7,
-        "name":"Jeu de tête"},
-    {   "id" : 8,
-        "name":"Marquage"},
-    {   "id" : 9,
-        "name":"Passes"},
-    {   "id" : 10,
-        "name":"Penalty"},
-    {   "id" : 11,
-        "name":"Tacles"},
-    {   "id" : 12,
-        "name":"Technique"},
-    {   "id" : 13,
-        "name":"Tirsde loin"},
-    {   "id" : 14,
-        "name":"Touches longues"}
-]
+{
+    "Technique":[
+        {"id" : "centres","name": "Centres"},
+        {"id" : "controledeballe","name":"Contrôle de balle"},
+        {"id" : "corners","name":"Corners"},
+        {"id" : "coupfrancs","name":"Coup francs"},
+        {"id" : "dribbles", "name":"Dribbles"},
+        {"id" : "finition","name":"Finition"},
+        {"id" : "jeudetete","name":"Jeu de tête"},
+        {"id" : "marquage","name":"Marquage"},
+        {"id" : "passes","name":"Passes"},
+        {"id" : "penalty","name":"Penalty"},
+        {"id" : "tacles","name":"Tacles"},
+        {"id" : "technique","name":"Technique"},
+        {"id" : "tirsdeloin","name":"Tirs de loin"},
+        {"id" : "touchelongues","name":"Touches longues"}
+    ],
+
+    "mental":[
+        {"id" : "agressivite","name": "Agressivité"},
+        {"id" : "anticipation","name":"Anticipation"},
+        {"id" : "appelsdeballe","name":"Appels de balle"},
+        {"id" : "concentration","name":"Concentration"},
+        {"id" : "courage", "name":"Courage"},
+        {"id" : "decision","name":"Décision"},
+        {"id" : "determination","name":"Détermination"},
+        {"id" : "inspiration","name":"Inspiration"},
+        {"id" : "jeucollectif","name":"Jeu collectif"},
+        {"id" : "leadership","name":"Leadership"},
+        {"id" : "placement","name":"Placement"},
+        {"id" : "sangfroid","name":"Sang-froid"},
+        {"id" : "visiondejeu","name":"Vision de jeu"},
+        {"id" : "volumedejeu","name":"Volume de jeu"}
+    ],
+
+    "physique": [
+        {"id" : "acceleration","name":"Accélération"},
+        {"id" : "agilité","name":"Agilité"},
+        {"id" : "detente","name":"Détente Verticale"},
+        {"id" : "endurence","name":"Endurence"},
+        {"id" : "equilibre","name":"Equilibre"},
+        {"id" : "puissance","name":"Puissance"},
+        {"id" : "qpn","name":"Qualité Phys. Nat."},
+        {"id" : "vitesse","name":"Vitesse"}
+    ]
+
+}
