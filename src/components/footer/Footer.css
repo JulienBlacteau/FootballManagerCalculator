@@ -5,12 +5,12 @@
     padding: 1rem 0;
     position: absolute;
     bottom: 0;
-    text-align: center; /* Centre le texte horizontalement */
+    text-align: center;
   }
   
-  .container {
+  .footer-container {
     display: flex;
-    flex-direction: column; /* Alignement vertical des éléments */
+    flex-direction: column;
     justify-content: center;
     align-items: center;
     max-width: 1200px;
