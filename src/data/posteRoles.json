@@ -1,0 +1,278 @@
+[
+    {
+        "id": 1,
+        "name": "Libéro - Soutien"
+    },
+    {
+        "id": 2,
+        "name": "Libéro - Attaque"
+    },
+    {
+        "id": 3,
+        "name": "Défenseur Central - Défense"
+    },
+    {
+        "id": 4,
+        "name": "Défenseur Central - Stoppeur"
+    },
+    {
+        "id": 5,
+        "name": "Défenseur Central - Couverture"
+    },
+    {
+        "id": 6,
+        "name": "Défenseur Relanceur - Défense"
+    },
+    {
+        "id": 7,
+        "name": "Défenseur Relanceur - Stoppeur"
+    },
+    {
+        "id": 8,
+        "name": "Défenseur Relanceur - Couverture"
+    },
+    {
+        "id": 9,
+        "name": "Défenseur central Strict - Défense"
+    },
+    {
+        "id": 10,
+        "name": "Défenseur central Strict - Stoppeur"
+    },
+    {
+        "id": 11,
+        "name": "Défenseur central Strict - Couverture"
+    },
+    {
+        "id": 12,
+        "name": "Défenseur Central Excentré -Défense"
+    },
+    {
+        "id": 13,
+        "name": "Défenseur Central Excentré – Soutien/Att"
+    },
+    {
+        "id": 14,
+        "name": "Arrière Latéral Défense"
+    },
+    {
+        "id": 15,
+        "name": "Arrière Latéral Soutien/auto"
+    },
+    {
+        "id": 16,
+        "name": "Arrière Latéral Attaque"
+    },
+    {
+        "id": 17,
+        "name": "Latéral Offensif Attaque"
+    },
+    {
+        "id": 18,
+        "name": "Latéral Offensif Défense/Soutien/Auto"
+    },
+    {
+        "id": 19,
+        "name": "Arrière Latéral Strict Déf"
+    },
+    {
+        "id": 20,
+        "name": "Latéral Offensif Complet Soutien Attaque"
+    },
+    {
+        "id": 21,
+        "name": "Latéral Intérieur Défense"
+    },
+    {
+        "id": 22,
+        "name": "Latéral Intérieur Soutien Auto"
+    },
+    {
+        "id": 23,
+        "name": "Latéral Intérieur Attaque"
+    },
+    {
+        "id": 24,
+        "name": "Milieu Défensif - Défense"
+    },
+    {
+        "id": 25,
+        "name": "Milieu Défensif - Soutien"
+    },
+    {
+        "id": 26,
+        "name": "Meneur de jeu en retrait - Défense"
+    },
+    {
+        "id": 27,
+        "name": "Meneur de jeu en retrait - Soutien"
+    },
+    {
+        "id": 28,
+        "name": "Milieu Récupérateur - Défense"
+    },
+    {
+        "id": 29,
+        "name": "Milieu Récupérateur - Soutien"
+    },
+    {
+        "id": 30,
+        "name": "Milieu Sentinelle -Défense"
+    },
+    {
+        "id": 31,
+        "name": "Demi Centre Défense"
+    },
+    {
+        "id": 32,
+        "name": "Regista Soutien"
+    },
+    {
+        "id": 33,
+        "name": "Meneur de jeu libre Soutien"
+    },
+    {
+        "id": 34,
+        "name": "Segundo Volante Soutien/Attaque"
+    },
+    {
+        "id": 35,
+        "name": "Milieu Axial - Défense"
+    },
+    {
+        "id": 36,
+        "name": "Milieu Axial – Sou/Auto"
+    },
+    {
+        "id": 37,
+        "name": "Milieu Axial - Attaque"
+    },
+    {
+        "id": 38,
+        "name": "Milieu box + box Soutien"
+    },
+    {
+        "id": 39,
+        "name": "Meneur de jeu avancé - Soutien"
+    },
+    {
+        "id": 40,
+        "name": "Meneur de jeu avancé - Attaque"
+    },
+    {
+        "id": 41,
+        "name": "Meneur de jeu libre Soutien"
+    },
+    {
+        "id": 42,
+        "name": "Mezzala Soutien"
+    },
+    {
+        "id": 43,
+        "name": "Mezzala Attaque"
+    },
+    {
+        "id": 44,
+        "name": "Carrilero Soutien"
+    },
+    {
+        "id": 45,
+        "name": "Milieu Offensif - Soutien"
+    },
+    {
+        "id": 46,
+        "name": "Milieu Offensif - Attaque"
+    },
+    {
+        "id": 47,
+        "name": "Attaquant de Soutien - Attaque"
+    },
+    {
+        "id": 48,
+        "name": "Enganche Soutien"
+    },
+    {
+        "id": 49,
+        "name": "Neuf et demi Attaque"
+    },
+    {
+        "id": 50,
+        "name": "Ailier – Soutien"
+    },
+    {
+        "id": 51,
+        "name": "Ailier – Attaque"
+    },
+    {
+        "id": 52,
+        "name": "Attaquant intérieur Soutien"
+    },
+    {
+        "id": 53,
+        "name": "Attaquant intérieur Attaque"
+    },
+    {
+        "id": 54,
+        "name": "Attaquant pivot Excentré Soutien"
+    },
+    {
+        "id": 55,
+        "name": "Attaquant pivot Excentré Attaque"
+    },
+    {
+        "id": 56,
+        "name": "Raudeumter Attaque"
+    },
+    {
+        "id": 57,
+        "name": "Ailier intérieur Soutien"
+    },
+    {
+        "id": 58,
+        "name": "Ailier intérieur Attaque"
+    },
+    {
+        "id": 59,
+        "name": "Attaquant en retrait - Soutien"
+    },
+    {
+        "id": 60,
+        "name": "Attaquant en retrait - Attaque"
+    },
+    {
+        "id": 61,
+        "name": "Attaquant avancé - Attaque"
+    },
+    {
+        "id": 62,
+        "name": "Attaquant pivot – Soutien/Attaque"
+    },
+    {
+        "id": 63,
+        "name": "Renard des surfaces - Attaque"
+    },
+    {
+        "id": 64,
+        "name": "Attaquant Complet Soutien/Attaque"
+    },
+    {
+        "id": 65,
+        "name": "Attaquant Pressing Défense"
+    },
+    {
+        "id": 66,
+        "name": "Attaquant Pressing Soutien"
+    },
+    {
+        "id": 67,
+        "name": "Attaquant Pressing Attaque"
+    },
+    {
+        "id": 68,
+        "name": "Attaquant Soutien Attaque"
+    },
+    {
+        "id": 69,
+        "name": "Faux Neuf Soutien"
+    }
+]
