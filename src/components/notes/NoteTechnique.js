@@ -1,8 +1,29 @@
-import React from 'react';
+import React, { useState } from 'react';
 import Attributs from '../../data/attributs.json';
 import './NoteStyle.css';
 
 const Technique = () => {
+  const initialState = Attributs.reduce((acc, attribut) => {
+    acc[attribut.id] = '';
+    return acc;
+  }, {});
+
+  const [values, setValues] = useState(initialState);
+
+  const handleChange = (event, id) => {
+    const value = event.target.value;
+    if (value === '' || (value >= 1 && value <= 20)) {
+      setValues(prevValues => ({
+        ...prevValues,
+        [id]: value
+      }));
+    } else {
+      setValues(prevValues => ({
+        ...prevValues,
+        [id]: ''
+      }));
+    }
+  };
 
   return (
     <div className="notestyle-container">
@@ -11,7 +32,10 @@ const Technique = () => {
         Attributs.map(attribut => (
           <div className="notestyle-attribute" key={attribut.id}>
             <label>{attribut.name}</label>
-            <input min="1" max="20"/>
+            <input
+              value={values[attribut.id]}
+              onChange={(e) => handleChange(e, attribut.id)}
+            />
           </div>
         ))
       }
