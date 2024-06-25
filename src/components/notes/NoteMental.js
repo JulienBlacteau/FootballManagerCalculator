@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import './NoteStyle.css';
+import '../../style/notes/NoteStyle.css';
 
 const Mental = () => {
   const [value, setValue] = useState('');

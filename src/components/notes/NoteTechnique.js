@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import Attributs from '../../data/attributs.json';
-import './NoteStyle.css';
+import '../../style/notes/NoteStyle.css';
 
 const Technique = () => {
   const initialState = Attributs.reduce((acc, attribut) => {

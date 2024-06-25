@@ -3,7 +3,7 @@ import Technique from './NoteTechnique';
 import Mental from './NoteMental';
 import Physique from './NotePhysique';
 
-import './NoteJoueur.css'
+import '../../style/notes/NoteJoueur.css'
 
 
 const Note = () => {

@@ -1,5 +1,5 @@
 import React from 'react';
-import './Header.css';
+import '../../style/header/Header.css';
 import { ReactComponent as Logo } from '../../assets/images/logo-fmc.svg';
 
 const Header = () => {
