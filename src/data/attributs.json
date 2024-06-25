@@ -1,18 +1,18 @@
+[
+    {"id" : "centres","name": "Centres"},
+    {"id" : "controledeballe","name":"Contrôle de balle"},
+    {"id" : "corners","name":"Corners"},
+    {"id" : "coupfrancs","name":"Coup francs"},
+    {"id" : "dribbles", "name":"Dribbles"},
+    {"id" : "finition","name":"Finition"},
+    {"id" : "jeudetete","name":"Jeu de tête"},
+    {"id" : "marquage","name":"Marquage"},
+    {"id" : "passes","name":"Passes"},
+    {"id" : "penalty","name":"Penalty"},
+    {"id" : "tacles","name":"Tacles"},
+    {"id" : "technique","name":"Technique"},
+    {"id" : "tirsdeloin","name":"Tirs de loin"},
+    {"id" : "touchelongues","name":"Touches longues"}
+]
 
-    [
-        {"id" : 1,"name": "Centres"},
-        {"id" : 2,"name":"Contrôle de balle"},
-        {"id" : 3,"name":"Corners"},
-        {"id" : 4,"name":"Coup francs"},
-        {"id" : 5, "name":"Dribbles"},
-        {"id" : 6,"name":"Finition"},
-        {"id" : 7,"name":"Jeu de tête"},
-        {"id" : 8,"name":"Marquage"},
-        {"id" : 9,"name":"Passes"},
-        {"id" : 10,"name":"Penalty"},
-        {"id" : 11,"name":"Tacles"},
-        {"id" : 12,"name":"Technique"},
-        {"id" : 13,"name":"Tirs de loin"},
-        {"id" : 14,"name":"Touches longues"}
-    ]
 
