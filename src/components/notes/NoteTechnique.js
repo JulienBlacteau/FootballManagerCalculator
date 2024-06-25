@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import Attributs from '../../data/attributs.json';
+import Attributs from '../../data/attributsTechnique.json';
 import '../../style/notes/NoteStyle.css';
 
 const Technique = () => {

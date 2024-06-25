@@ -1,0 +1,10 @@
+[
+    {"id" : "acceleration","name":"Accélération"},
+    {"id" : "agilité","name":"Agilité"},
+    {"id" : "detente","name":"Détente Verticale"},
+    {"id" : "endurence","name":"Endurence"},
+    {"id" : "equilibre","name":"Equilibre"},
+    {"id" : "puissance","name":"Puissance"},
+    {"id" : "qpn","name":"Qualité Phys. Nat."},
+    {"id" : "vitesse","name":"Vitesse"}
+]

@@ -1,0 +1,16 @@
+[
+    {"id" : "agressivite","name": "Agressivité"},
+    {"id" : "anticipation","name":"Anticipation"},
+    {"id" : "appelsdeballe","name":"Appels de balle"},
+    {"id" : "concentration","name":"Concentration"},
+    {"id" : "courage", "name":"Courage"},
+    {"id" : "decision","name":"Décision"},
+    {"id" : "determination","name":"Détermination"},
+    {"id" : "inspiration","name":"Inspiration"},
+    {"id" : "jeucollectif","name":"Jeu collectif"},
+    {"id" : "leadership","name":"Leadership"},
+    {"id" : "placement","name":"Placement"},
+    {"id" : "sangfroid","name":"Sang-froid"},
+    {"id" : "visiondejeu","name":"Vision de jeu"},
+    {"id" : "volumedejeu","name":"Volume de jeu"}
+]

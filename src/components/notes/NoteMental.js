@@ -1,32 +1,45 @@
 import React, { useState } from 'react';
+import Attributs from '../../data/attributsMental.json';
 import '../../style/notes/NoteStyle.css';
 
 const Mental = () => {
-  const [value, setValue] = useState('');
+  const initialState = Attributs.reduce((acc, attribut) => {
+    acc[attribut.id] = '';
+    return acc;
+  }, {});
 
-  const handleChange = (event) => {
+  const [values, setValues] = useState(initialState);
+
+  const handleChange = (event, id) => {
     const value = event.target.value;
-    if (value < 1 || value > 20) {
-      setValue('');
+    if (value === '' || (value >= 1 && value <= 20)) {
+      setValues(prevValues => ({
+        ...prevValues,
+        [id]: value
+      }));
     } else {
-      setValue(value);
+      setValues(prevValues => ({
+        ...prevValues,
+        [id]: ''
+      }));
     }
   };
 
   return (
     <div className="notestyle-container">
       <h3 className="notestyle-title">MENTAL</h3>
-      <div className="notestyle-attribute">
-        <label htmlFor="agressivite">Agressivité</label>
-        <input id="agressivite" name="agressivite" min="1" max="20" value={value} onChange={handleChange}
-        />
-      </div>
-
-      <div className="notestyle-attribute">
-        <label htmlFor="anticipation">Anticipation</label>
-        <input id="anticipation" name="anticipation" min="1" max="20" value={value} onChange={handleChange}
-        />
-      </div>
+      {
+        Attributs.map(attribut => (
+          <div className="notestyle-attribute" key={attribut.id}>
+            <label>{attribut.name}</label>
+            <input
+              value={values[attribut.id]}
+              onChange={(e) => handleChange(e, attribut.id)}
+            />
+          </div>
+        ))
+      }
+      
     </div>
   );
 };
