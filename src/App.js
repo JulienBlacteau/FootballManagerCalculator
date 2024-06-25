@@ -1,7 +1,7 @@
 import React from 'react';
 import Header from './components/Header';
 import Footer from './components/Footer';
-import Note from './components/notes/NoteJoueur';
+import Note from './components/NoteJoueur';
 import Rank from './components/RankingPost';
 import './App.css';
 
