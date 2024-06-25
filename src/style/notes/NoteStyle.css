@@ -1,5 +1,6 @@
 h3{
-    font-size: 30px;
+font-size: 22px;
+margin: 0;
 }
 
 .notestyle-container{
@@ -28,6 +29,7 @@ font-size: 22px;
 width: 47px;
 padding: 5px;
 color: #3F597B;
+text-align: center;
 font-size: 20px;
 border: 1px solid #ccc;
 border-radius: 4px;
