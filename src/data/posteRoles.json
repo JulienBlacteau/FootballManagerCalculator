@@ -1,278 +1,485 @@
 [
     {
         "id": 1,
-        "name": "Libéro - Soutien"
+        "name": "Libéro - Soutien",
+        "attributs": [
+                "dribbles","jeudetete","marquage","passes","technique","tacles","controledeballe","anticipation","concentration","courage","decision","inspiration","jeucollectif","placement","sangfroid","agilite","detente","endurence","equilibre","puissance","vitesse"
+            ]
     },
     {
         "id": 2,
-        "name": "Libéro - Attaque"
+        "name": "Libéro - Attaque",
+        "attributs": [
+                "controledeballe","dribbles","jeudetete", "marquage","passes","tacles","technique","tirsdeloin","anticipation","concentration","courage","decision","inspiration","jeucollectif","placement","visiondejeu","acceleration","agilite","detente","endurence","equilibre","puissance","vitesse"
+            ]
     },
     {
         "id": 3,
-        "name": "Défenseur Central - Défense"
+        "name": "Défenseur Central - Défense",
+        "attributs": [
+                "jeudetete","marquage","tacles","agressivite","anticipation","concentration","courage","decision","placement","sangfroid","detente","puissance","vitesse"
+            ]
     },
     {
         "id": 4,
-        "name": "Défenseur Central - Stoppeur"
+        "name": "Défenseur Central - Stoppeur",
+        "attributs": [
+                "jeudetete","marquage","tacles","anticipation","concentration","courage","decision","placement","sangfroid","detente","puissance","vitesse"
+            ]
     },
     {
         "id": 5,
-        "name": "Défenseur Central - Couverture"
+        "name": "Défenseur Central - Couverture",
+        "attributs": [
+                "jeudetete","marquage","passes","tacles","technique","agressivite","anticipation","concentration","courage","decision","placement","sangfroid","visiondejeu","volumedejeu","detente","puissance","vitesse"
+            ]
     },
     {
         "id": 6,
-        "name": "Défenseur Relanceur - Défense"
+        "name": "Défenseur Relanceur - Défense",
+        "attributs": [
+                "jeudetete","marquage","tacles","agressivite","anticipation","concentration","courage","decision","placement","sangfroid","detente","puissance","vitesse"
+            ]
     },
     {
         "id": 7,
-        "name": "Défenseur Relanceur - Stoppeur"
+        "name": "Défenseur Relanceur - Stoppeur",
+        "attributs": [
+                "controledeballe","jeudetete","marquage","passes","tacles","technique","agressivite","anticipation","concentration","courage","decision","placement","sangfroid","visiondejeu","detente","puissance"
+            ]
     },
     {
         "id": 8,
-        "name": "Défenseur Relanceur - Couverture"
+        "name": "Défenseur Relanceur - Couverture",
+        "attributs": [
+                "controledeballe","jeudetete","marquage","passes","tacles","technique","anticipation","appelsdeballe","concentration","courage","decision","placement","sangfroid","visiondejeu","detente","puissance","vitesse"
+            ]
     },
     {
         "id": 9,
-        "name": "Défenseur central Strict - Défense"
+        "name": "Défenseur central Strict - Défense",
+        "attributs": [
+                "jeudetete","marquage","tacles","agressivite","anticipation","concentration","courage","placement","detente","puissance","vitesse"
+            ]
     },
     {
         "id": 10,
-        "name": "Défenseur central Strict - Stoppeur"
+        "name": "Défenseur central Strict - Stoppeur",
+        "attributs": [
+            "jeudetete","marquage","tacles","agressivite","anticipation","concentration","courage","placement","detente","puissance"
+        ]
     },
     {
         "id": 11,
-        "name": "Défenseur central Strict - Couverture"
+        "name": "Défenseur central Strict - Couverture",
+        "attributs": [
+            "jeudetete","marquage","tacles","anticipation","concentration","courage","placement","detente","puissance","vitesse"
+        ]
     },
     {
         "id": 12,
-        "name": "Défenseur Central Excentré -Défense"
+        "name": "Défenseur Central Excentré -Défense",
+        "attributs": [
+            "centres","dribbles","jeudetete","marquage","tacles","agressivite","anticipation","concentration","courage","decision","placement","sangfroid","volumedejeu","detente","endurence","puissance","vitesse"
+        ]
     },
     {
         "id": 13,
-        "name": "Défenseur Central Excentré – Soutien/Att"
+        "name": "Défenseur Central Excentré – Soutien/Attaque",
+        "attributs": [
+            "centres","dribbles","jeudetete","marquage","tacles","agressivite","anticipation","appelsdeballe","concentration","courage","placement","sangfroid","detente","endurence","puissance","vitesse"
+        ]
     },
     {
         "id": 14,
-        "name": "Arrière Latéral Défense"
+        "name": "Arrière Latéral - Défense",
+        "attributs": [
+            "centres","marquage","passes","tacles","anticipation","concentration","decision","jeucollectif","placement","sangfroid","endurence","vitesse"
+        ]
     },
     {
         "id": 15,
-        "name": "Arrière Latéral Soutien/auto"
+        "name": "Arrière Latéral - Soutien/auto",
+        "attributs": [
+            "centres","dribbles","marquage","passes","tacles","technique","anticipation","concentration","decision","jeucollectif","placement","sangfroid","volumedejeu","endurence","vitesse"
+        ]
     },
     {
         "id": 16,
-        "name": "Arrière Latéral Attaque"
+        "name": "Arrière Latéral - Attaque",
+        "attributs": [
+            "centres","controledeballe","dribbles","marquage","passes","tacles","technique","anticipation","appelsdeballe","concentration","decision","jeucollectif","placement","sangfroid","volumedejeu","acceleration","agilite","endurence","vitesse"
+        ]
     },
     {
         "id": 17,
-        "name": "Latéral Offensif Attaque"
+        "name": "Latéral Offensif - Attaque",
+        "attributs": [
+            "centres","controledeballe","dribbles","marquage","passes","tacles","technique","anticipation","appelsdeballe","concentration","decision","inspiration","jeucollectif","placement","volumedejeu","acceleration","agilite","endurence","vitesse"
+        ]
     },
     {
         "id": 18,
-        "name": "Latéral Offensif Défense/Soutien/Auto"
+        "name": "Latéral Offensif - Défense/Soutien/Auto",
+        "attributs": [
+            "centres","controledeballe","dribbles","marquage","passes","tacles","technique","anticipation","appelsdeballe","concentration","decision","jeucollectif","placement","acceleration","agilite","endurence","vitesse"
+        ]
     },
     {
         "id": 19,
-        "name": "Arrière Latéral Strict Déf"
+        "name": "Arrière Latéral Strict - Défense",
+        "attributs": [
+            "jeudetete","marquage","tacles","agressivite","anticipation","concentration","courage","jeucollectif","placement","puissance"
+        ]
     },
     {
         "id": 20,
-        "name": "Latéral Offensif Complet Soutien Attaque"
+        "name": "Latéral Offensif Complet - Soutien/Attaque",
+        "attributs": [
+            "centres","controledeballe","dribbles","passes","tacles","technique","anticipation","appelsdeballe","decision","inspiration","jeucollectif","sangfroid","volumedejeu","acceleration","agilite","endurence","equilibre","vitesse"
+        ]
     },
     {
         "id": 21,
-        "name": "Latéral Intérieur Défense"
+        "name": "Latéral Intérieur - Défense",
+        "attributs": [
+            "controledeballe","dribbles","marquage","passes","tacles","technique","anticipation","appelsdeballe","concentration","decision","jeucollectif","placement","volumedejeu","acceleration","agilite","endurence"
+        ]
     },
     {
         "id": 22,
-        "name": "Latéral Intérieur Soutien Auto"
+        "name": "Latéral Intérieur - Soutien/Auto",
+        "attributs": [
+            "controledeballe","dribbles","marquage","passes","tacles","technique","anticipation","appelsdeballe","concentration","decision","jeucollectif","placement","sangfroid","volumedejeu","acceleration","agilite","endurence"
+        ]
     },
     {
         "id": 23,
-        "name": "Latéral Intérieur Attaque"
+        "name": "Latéral Intérieur - Attaque",
+        "attributs": [
+            "controledeballe","dribbles","marquage","passes","tacles","technique","tirsdeloin","anticipation","appelsdeballe","concentration","decision","inspiration","jeucollectif","placement","sangfroid","volumedejeu","acceleration","agilite","vitesse"
+        ]
     },
     {
         "id": 24,
-        "name": "Milieu Défensif - Défense"
+        "name": "Milieu Défensif - Défense",
+        "attributs": [
+            "controledeballe","dribbles","marquage","passes","tacles","technique","tirsdeloin","anticipation","appelsdeballe","concentration","decision","inspiration","jeucollectif","placement","sangfroid","volumedejeu","acceleration","agilite","vitesse"
+        ]
     },
     {
         "id": 25,
-        "name": "Milieu Défensif - Soutien"
+        "name": "Milieu Défensif - Soutien",
+        "attributs": [
+            "controledeballe","marquage","passes","tacles","agressivite","anticipation","concentration","decision","jeucollectif","placement","sangfroid","volumedejeu","endurence","puissance"
+        ]
     },
     {
         "id": 26,
-        "name": "Meneur de jeu en retrait - Défense"
+        "name": "Meneur de jeu en retrait - Défense",
+        "attributs": [
+            "controledeballe","passes","tacles","technique","anticipation","decision","jeucollectif","placement","sangfroid","visiondejeu","equilibre"
+        ]
     },
     {
         "id": 27,
-        "name": "Meneur de jeu en retrait - Soutien"
+        "name": "Meneur de jeu en retrait - Soutien",
+        "attributs": [
+            "controledeballe","passes","tacles","technique","anticipation","appelsdeballe","decision","jeucollectif","placement","sangfroid","visiondejeu","equilibre"
+        ]
     },
     {
         "id": 28,
-        "name": "Milieu Récupérateur - Défense"
+        "name": "Milieu Récupérateur - Défense",
+        "attributs": [
+            "marquage","tacles","agressivite","anticipation","concentration","courage","jeucollectif","placement","volumedejeu","agilite","endurence","puissance","vitesse"
+        ]
     },
     {
         "id": 29,
-        "name": "Milieu Récupérateur - Soutien"
+        "name": "Milieu Récupérateur - Soutien",
+        "attributs": [
+            "marquage","passes","tacles","agressivite","anticipation","concentration","courage","jeucollectif","volumedejeu","agilite","endurence","puissance","vitesse"
+        ]
     },
     {
         "id": 30,
-        "name": "Milieu Sentinelle -Défense"
+        "name": "Milieu Sentinelle - Défense",
+        "attributs": [
+            "marquage","passes","anticipation","concentration","decision","jeucollectif","placement","sangfroid","puissance"
+        ]
     },
     {
         "id": 31,
-        "name": "Demi Centre Défense"
+        "name": "Demi Centre - Défense",
+        "attributs": [
+           "controledeballe","marquage","passes","tacles","agressivite","anticipation","concentration","courage","decision","jeucollectif","placement","sangfroid","volumedejeu","detente","endurence","puissance"
+        ]
     },
     {
         "id": 32,
-        "name": "Regista Soutien"
+        "name": "Regista - Soutien",
+        "attributs": [
+           "controledeballe","dribbles","passes","technique","tirsdeloin","anticipation","appelsdeballe","decision","inspiration","jeucollectif","sangfroid","visiondejeu","equilibre"
+        ]
     },
     {
         "id": 33,
-        "name": "Meneur de jeu libre Soutien"
+        "name": "Meneur de jeu libre - Soutien",
+        "attributs": [
+           "controledeballe","dribbles","passes","technique","tirsdeloin","anticipation","appelsdeballe","decision","jeucollectif","placement","sangfroid","visiondejeu","volumedejeu","acceleration","agilite","endurence","equilibre","vitesse"
+        ]
     },
     {
         "id": 34,
-        "name": "Segundo Volante Soutien/Attaque"
+        "name": "Segundo Volante - Soutien/Attaque",
+        "attributs": [
+           "controledeballe","finition","marquage","passes","tacles","tirsdeloin","anticipation","appelsdeballe","concentration","decision","placement","sangfroid","volumedejeu","acceleration","endurence","equilibre","puissance","vitesse"
+        ]
     },
     {
         "id": 35,
-        "name": "Milieu Axial - Défense"
+        "name": "Milieu Axial - Défense",
+        "attributs": [
+           "controledeballe","marquage","passes","tacles","technique","agressivite","anticipation","concentration","decision","jeucollectif","placement","sangfroid","volumedejeu","endurence"
+        ]
     },
     {
         "id": 36,
-        "name": "Milieu Axial – Sou/Auto"
+        "name": "Milieu Axial – Soutien/Auto",
+        "attributs": [
+           "controledeballe","passes","tacles","technique","anticipation","appelsdeballe","concentration","decision","jeucollectif","sangfroid","visiondejeu","volumedejeu","endurence"
+        ]
     },
     {
         "id": 37,
-        "name": "Milieu Axial - Attaque"
+        "name": "Milieu Axial - Attaque",
+        "attributs": [
+           "controledeballe","passes","tacles","technique","tirsdeloin","anticipation","appelsdeballe","decision","jeucollectif","sangfroid","visiondejeu","volumedejeu","acceleration","endurence"
+        ]
     },
     {
         "id": 38,
-        "name": "Milieu box + box Soutien"
+        "name": "Milieu box to box Soutien",
+        "attributs": [
+           "controledeballe","dribbles","finition","passes","tacles","technique","tirsdeloin","agressivite","anticipation","appelsdeballe","decision","jeucollectif","placement","sangfroid","volumedejeu","acceleration","endurence","equilibre","puissance","vitesse"
+        ]
     },
     {
         "id": 39,
-        "name": "Meneur de jeu avancé - Soutien"
+        "name": "Meneur de jeu avancé - Soutien",
+        "attributs": [
+           "controledeballe","dribbles","passes","technique","anticipation","appelsdeballe","decision","inspiration","jeucollectif","sangfroid","visiondejeu","agilite"
+        ]
     },
     {
         "id": 40,
-        "name": "Meneur de jeu avancé - Attaque"
+        "name": "Meneur de jeu avancé - Attaque",
+        "attributs": [
+           "controledeballe","dribbles","passes","technique","anticipation","appelsdeballe","decision","inspiration","jeucollectif","sangfroid","visiondejeu","acceleration","agilite"
+        ]
     },
     {
         "id": 41,
-        "name": "Meneur de jeu libre Soutien"
+        "name": "Meneur de jeu libre - Soutien",
+        "attributs": [
+           "controledeballe","dribbles","passes","technique","tirsdeloin","anticipation","appelsdeballe","concentration","decision","jeucollectif","placement","sangfroid","visiondejeu","volumedejeu","acceleration","agilite","endurence","equilibre","vitesse"
+        ]
     },
     {
         "id": 42,
-        "name": "Mezzala Soutien"
+        "name": "Mezzala - Soutien",
+        "attributs": [
+           "controledeballe","dribbles","passes","tacles","technique","tirsdeloin","anticipation","appelsdeballe","decision","sangfroid","visiondejeu","volumedejeu","acceleration","endurence","equilibre"
+        ]
     },
     {
         "id": 43,
-        "name": "Mezzala Attaque"
+        "name": "Mezzala - Attaque",
+        "attributs": [
+           "controledeballe","dribbles","finition","passes","technique","tirsdeloin","anticipation","appelsdeballe","decision","inspiration","sangfroid","visiondejeu","volumedejeu","acceleration","endurence","equilibre"
+        ]
     },
     {
         "id": 44,
-        "name": "Carrilero Soutien"
+        "name": "Carrilero Soutien",
+        "attributs": [
+           "controledeballe","passes","tacles","technique","anticipation","appelsdeballe","concentration","decision","jeucollectif","placement","sangfroid","visiondejeu","volumedejeu","endurence"
+        ]
     },
     {
         "id": 45,
-        "name": "Milieu Offensif - Soutien"
+        "name": "Milieu Offensif - Soutien",
+        "attributs": [
+           "controledeballe","dribbles","passes","technique","tirsdeloin","anticipation","appelsdeballe","decision","inspiration","sangfroid","visiondejeu","agilite"
+        ]
     },
     {
         "id": 46,
-        "name": "Milieu Offensif - Attaque"
+        "name": "Milieu Offensif - Attaque",
+        "attributs": [
+           "controledeballe","dribbles","finition","passes","technique","tirsdeloin","anticipation","appelsdeballe","decision","inspiration","sangfroid","visiondejeu","agilite"
+        ]
     },
     {
         "id": 47,
-        "name": "Attaquant de Soutien - Attaque"
+        "name": "Attaquant de Soutien - Attaque",
+        "attributs": [
+           "controledeballe","dribbles","finition","passes","technique","anticipation","appelsdeballe","decision","inspiration","sangfroid","visiondejeu","acceleration","agilite","equilibre"
+        ]
     },
     {
         "id": 48,
-        "name": "Enganche Soutien"
+        "name": "Enganche - Soutien",
+        "attributs": [
+           "controledeballe","dribbles","passes","technique","anticipation","appelsdeballe","decision","inspiration","jeucollectif","sangfroid","visiondejeu","agilite"
+        ]
     },
     {
         "id": 49,
-        "name": "Neuf et demi Attaque"
+        "name": "Neuf et demi - Attaque",
+        "attributs": [
+           "controledeballe","dribbles","finition","passes","technique","anticipation","appelsdeballe","concentration","decision","sangfroid","volumedejeu","acceleration","agilite","endurence","equilibre","vitesse"
+        ]
     },
     {
         "id": 50,
-        "name": "Ailier – Soutien"
+        "name": "Ailier – Soutien",
+        "attributs": [
+           "centres","controledeballe","dribbles","passes","technique","appelsdeballe","volumedejeu","acceleration","agilite","vitesse"
+        ]
     },
     {
         "id": 51,
-        "name": "Ailier – Attaque"
+        "name": "Ailier – Attaque",
+        "attributs": [
+           "centres","controledeballe","dribbles","passes","technique","anticipation","appelsdeballe","inspiration","acceleration","agilite","vitesse"
+        ]
     },
     {
         "id": 52,
-        "name": "Attaquant intérieur Soutien"
+        "name": "Attaquant intérieur - Soutien",
+        "attributs": [
+           "controledeballe","dribbles","finition","passes","technique","tirsdeloin","anticipation","appelsdeballe","inspiration","sangfroid","visiondejeu","acceleration","agilite","equilibre","vitesse"
+        ]
     },
     {
         "id": 53,
-        "name": "Attaquant intérieur Attaque"
+        "name": "Attaquant intérieur - Attaque",
+        "attributs": [
+           "controledeballe","dribbles","finition","passes","technique","tirsdeloin","anticipation","appelsdeballe","inspiration","sangfroid","acceleration","agilite","equilibre","vitesse"
+        ]
     },
     {
         "id": 54,
-        "name": "Attaquant pivot Excentré Soutien"
+        "name": "Attaquant pivot Excentré - Soutien",
+        "attributs": [
+           "centres","controledeballe","jeudetete","anticipation","appelsdeballe","courage","jeucollectif","volumedejeu","detente","endurence","equilibre","vitesse"
+        ]
     },
     {
         "id": 55,
-        "name": "Attaquant pivot Excentré Attaque"
+        "name": "Attaquant pivot Excentré - Attaque",
+        "attributs": [
+           "centres","controledeballe","finition","jeudetete","anticipation","appelsdeballe","courage","jeucollectif","volumedejeu","detente","endurence","equilibre","vitesse"
+        ]
     },
     {
         "id": 56,
-        "name": "Raudeumter Attaque"
+        "name": "Raudeumter - Attaque",
+        "attributs": [
+           "controledeballe","dribbles","technique","anticipation","appelsdeballe","concentration","decision","sangfroid","volumedejeu","acceleration","endurence","equilibre"
+        ]
     },
     {
         "id": 57,
-        "name": "Ailier intérieur Soutien"
+        "name": "Ailier intérieur - Soutien",
+        "attributs": [
+           "centres","controledeballe","dribbles","passes","technique","tirsdeloin","appelsdeballe","decision","sangfroid","visiondejeu","volumedejeu","acceleration","agilite","endurence","vitesse"
+        ]
     },
     {
         "id": 58,
-        "name": "Ailier intérieur Attaque"
+        "name": "Ailier intérieur - Attaque",
+        "attributs": [
+           "centres","controledeballe","dribbles","passes","technique","tirsdeloin","anticipation","appelsdeballe","decision","inspiration","sangfroid","visiondejeu","acceleration","agilite","vitesse"
+        ]
     },
     {
         "id": 59,
-        "name": "Attaquant en retrait - Soutien"
+        "name": "Attaquant en retrait - Soutien",
+        "attributs": [
+           "controledeballe","finition","passes","technique","anticipation","appelsdeballe","decision","inspiration","jeucollectif","sangfroid","visiondejeu","equilibre","puissance"
+        ]
     },
     {
         "id": 60,
-        "name": "Attaquant en retrait - Attaque"
+        "name": "Attaquant en retrait - Attaque",
+        "attributs": [
+           "controledeballe","finition","passes","technique","anticipation","appelsdeballe","decision","inspiration","jeucollectif","sangfroid","visiondejeu","equilibre","puissance"
+        ]
     },
     {
         "id": 61,
-        "name": "Attaquant avancé - Attaque"
+        "name": "Attaquant avancé - Attaque",
+        "attributs": [
+           "controledeballe","dribbles","finition","passes","technique","anticipation","appelsdeballe","decision","sangfroid","volumedejeu","acceleration","agilite","endurence","equilibre","vitesse"
+        ]
     },
     {
         "id": 62,
-        "name": "Attaquant pivot – Soutien/Attaque"
+        "name": "Attaquant pivot – Soutien/Attaque",
+        "attributs": [
+           "controledeballe","finition","jeudetete","agressivite","anticipation","appelsdeballe","courage","decision","jeucollectif","sangfroid","detente","equilibre","puissance"
+        ]
     },
     {
         "id": 63,
-        "name": "Renard des surfaces - Attaque"
+        "name": "Renard des surfaces - Attaque",
+        "attributs": [
+           "controledeballe","finition","jeudetete","technique","anticipation","appelsdeballe","decision","sangfroid","acceleration"
+        ]
     },
     {
         "id": 64,
-        "name": "Attaquant Complet Soutien/Attaque"
+        "name": "Attaquant Complet - Soutien/Attaque",
+        "attributs": [
+           "controledeballe","dribbles","finition","jeudetete","passes","technique","tirsdeloin","anticipation","appelsdeballe","decision","jeucollectif","sangfroid","visiondejeu","volumedejeu","acceleration","agilite","detente","endurence","equilibre","puissance","vitesse"
+        ]
     },
     {
         "id": 65,
-        "name": "Attaquant Pressing Défense"
+        "name": "Attaquant Pressing - Défense",
+        "attributs": [
+           "controledeballe","agressivite","anticipation","concentration","courage","decision","jeucollectif","sangfroid","volumedejeu","acceleration","agilite","endurence","equilibre","puissance","vitesse"
+        ]
     },
     {
         "id": 66,
-        "name": "Attaquant Pressing Soutien"
+        "name": "Attaquant Pressing - Soutien",
+        "attributs": [
+           "controledeballe","passes","agressivite","anticipation","appelsdeballe","concentration","courage","decision","jeucollectif","sangfroid","volumedejeu","acceleration","agilite","endurence","equilibre","puissance","vitesse"
+        ]
     },
     {
         "id": 67,
-        "name": "Attaquant Pressing Attaque"
+        "name": "Attaquant Pressing - Attaque",
+        "attributs": [
+           "finition","passes","agressivite","anticipation","appelsdeballe","concentration","courage","decision","jeucollectif","sangfroid","volumedejeu","acceleration","agilite","endurence","equilibre","puissance","vitesse"
+        ]
     },
     {
         "id": 68,
-        "name": "Attaquant Soutien Attaque"
+        "name": "Attaquant Soutien - Attaque",
+        "attributs": [
+           "controledeballe","dribbles","finition","passes","technique","anticipation","appelsdeballe","decision","inspiration","sangfroid","visiondejeu","acceleration","agilite","equilibre"
+        ]
     },
     {
         "id": 69,
-        "name": "Faux Neuf Soutien"
+        "name": "Faux Neuf - Soutien",
+        "attributs": [
+           "controledeballe","dribbles","finition","passes","technique","anticipation","appelsdeballe","decision","inspiration","jeucollectif","sangfroid","visiondejeu","acceleration","agilite","equilibre"
+        ]
     }
 ]
