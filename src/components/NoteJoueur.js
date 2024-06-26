@@ -26,7 +26,6 @@ const Note = () => {
     }
   };
 
-  // Diviser les attributs en trois catégories
   const techniqueAttributes = Attributs.slice(0, 14);
   const mentalAttributes = Attributs.slice(14, 28);
   const physicalAttributes = Attributs.slice(28, 36);

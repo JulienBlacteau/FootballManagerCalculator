@@ -1,4 +1,4 @@
-.ranking-post-container{
+.ranking-post-container {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -6,9 +6,11 @@
     box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.250);
     width: 55%;
     padding: 10px;
+    max-height: 60vh; /* Définir une hauteur maximale */
+    overflow-y: auto;  /* Activer le défilement vertical */
 }
 
-.ranking-post-title{
+.ranking-post-title {
     text-align: center;
     margin-bottom: 20px;
     color: #FFF;

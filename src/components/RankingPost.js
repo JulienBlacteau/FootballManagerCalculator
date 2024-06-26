@@ -1,7 +1,13 @@
-import React from 'react';
-import '../style/RankingPost.css'
+import React, { useEffect, useState } from 'react';
+import '../style/RankingPost.css';
+import postesData from '../data/posteRoles.json';
 
 const Rank = () => {
+    const [posts, setPosts] = useState([]);
+
+    useEffect(() => {
+        setPosts(postesData);
+    }, []);
 
     return (
         <div className='ranking-post-container'>
@@ -11,27 +17,35 @@ const Rank = () => {
             <div className='category-container'>
                 <table>
                     <thead>
-                    <tr>
-                        <th>Postes & Rôles</th>
-                        <th>Technique</th>
-                        <th>Mental</th>
-                        <th>Physique</th>
-                        <th>Moyenne</th>
-                    </tr>
+                        <tr>
+                            <th>Postes & Rôles</th>
+                            <th>Technique</th>
+                            <th>Mental</th>
+                            <th>Physique</th>
+                            <th>Moyenne</th>
+                        </tr>
                     </thead>
                     <tbody>
-                    <tr>
-                        <td>Défenseur Central Excentré – Soutien/Att</td>
-                        <td>15,12</td>
-                        <td>14,20</td>
-                        <td>15,30</td>
-                        <td>14,95</td>
-                    </tr>
+                        {posts.length > 0 ? (
+                            posts.map(post => (
+                                <tr key={post.id}>
+                                    <td>{post.name}</td>
+                                    <td>-</td>
+                                    <td>-</td>
+                                    <td>-</td>
+                                    <td>-</td>
+                                </tr>
+                            ))
+                        ) : (
+                            <tr>
+                                <td colSpan="5">Loading...</td>
+                            </tr>
+                        )}
                     </tbody>
                 </table>
             </div>
         </div>
     );
 };
-  
+
 export default Rank;
