@@ -6,8 +6,8 @@
     box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.250);
     width: 55%;
     padding: 10px;
-    max-height: 60vh; /* Définir une hauteur maximale */
-    overflow-y: auto;  /* Activer le défilement vertical */
+    max-height: 60vh; 
+    overflow-y: auto;  
 }
 
 .ranking-post-title {
@@ -28,7 +28,9 @@ table {
 
 th, td {
     border: 1px solid #FFF;
-    padding: 5px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    max-height: 60vh;
     text-align: center;
     color: #FFF;
 }

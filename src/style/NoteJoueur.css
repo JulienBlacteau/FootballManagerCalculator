@@ -1,12 +1,10 @@
-.notestyle-container{
+.note-ranking-container{
     display: flex;
     flex-direction: row;
-    border: 4px solid rgba(255, 255, 255, 0.1);
-    box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.250);
     justify-content: space-around;
-    width: 40%;
-    max-height: 60vh;
-    padding: 10px;
+    max-height: 50vh;
+    width: 100%;
+    
 }
 
 h3{
@@ -14,10 +12,21 @@ font-size: 22px;
 margin: 0;
 }
 
+.notestyle-container{
+display: flex;
+justify-content: space-around;
+border: 4px solid rgba(255, 255, 255, 0.1);
+box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.250);
+padding: 10px;
+width: 40%;
+}
+
 .notestyle-section {
 color: #FFF;
 width: auto;
 overflow-x: auto;
+margin-left: 5px;
+margin-right: 5px;
 }
 
 .notestyle-attribute {
@@ -25,17 +34,17 @@ display: flex ;
 margin: 5px 0;
 justify-content: space-between;
 align-items: center;
+width: 100%;
 }
 
 .notestyle-attribute label {
-width: 195px;
-height: 34px;
+width: 80%;
 color: #FFF;
 font-size: 22px;
 }
 
 .notestyle-attribute input {
-width: 47px;
+width: 10%;
 padding: 5px;
 color: #3F597B;
 text-align: center;
