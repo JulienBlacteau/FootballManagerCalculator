@@ -1,8 +1,8 @@
-.all-container{
+.components-container{
     display: flex;
-    flex-wrap: wrap;
     justify-content: space-around; /* Center align the components */
     gap: 10px;
+    height: 100%; 
 }
 
 .note-ranking-container{
@@ -11,7 +11,6 @@
     justify-content: space-around;
     max-height: 50vh;
     width: 100%;
-    
 }
 
 h3{

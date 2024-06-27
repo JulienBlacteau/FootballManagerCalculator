@@ -1,11 +1,11 @@
 import React, { useState } from 'react';
 import Attributs from '../data/attributsJoueur.json';
 import posteRoles from '../data/posteRoles.json';
-import TopTen from './TopTen';
-import '../style/NoteJoueur.css';
 import RankingPost from './RankingPost';
+import '../style/NoteJoueur.css';
+import Bareme from './Bareme';
 
-const Note = () => {
+const NoteJoueur = () => {
   const initialState = Attributs.reduce((acc, attribut) => {
     acc[attribut.id] = '';
     return acc;
@@ -29,12 +29,25 @@ const Note = () => {
   };
 
   const calculateAverages = () => {
-    // Exemple de calcul des moyennes pour chaque poste
     const averages = posteRoles.reduce((acc, poste) => {
       const posteName = poste.name;
-      const total = poste.attributs.reduce((sum, attr) => sum + (parseFloat(values[attr]) || 0), 0);
-      const count = poste.attributs.length;
-      acc[posteName] = (total / count).toFixed(2);
+
+      const techniqueAttributes = poste.attributs.filter(attr => Attributs.slice(0, 14).some(a => a.id === attr));
+      const mentalAttributes = poste.attributs.filter(attr => Attributs.slice(14, 28).some(a => a.id === attr));
+      const physicalAttributes = poste.attributs.filter(attr => Attributs.slice(28, 36).some(a => a.id === attr));
+
+      const calcAverage = (attrs) => {
+        const total = attrs.reduce((sum, attr) => sum + (parseFloat(values[attr]) || 0), 0);
+        return (total / attrs.length).toFixed(2);
+      };
+
+      acc[posteName] = {
+        overall: calcAverage(poste.attributs),
+        technique: calcAverage(techniqueAttributes),
+        mental: calcAverage(mentalAttributes),
+        physical: calcAverage(physicalAttributes)
+      };
+
       return acc;
     }, {});
 
@@ -48,7 +61,8 @@ const Note = () => {
   const physicalAttributes = Attributs.slice(28, 36);
 
   return (
-    <div className='all-container'>
+    <div className="components-container">
+      <Bareme />
       <div className="notestyle-container">
         <div className="notestyle-section">
           <h3>Technique</h3>
@@ -89,10 +103,9 @@ const Note = () => {
           ))}
         </div>
       </div>
-      <RankingPost averages={averages}/>
-      <TopTen averages={averages} />
+      <RankingPost averages={averages} />
     </div>
   );
 };
 
-export default Note;
+export default NoteJoueur;
