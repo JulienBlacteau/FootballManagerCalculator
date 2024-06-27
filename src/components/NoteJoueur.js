@@ -1,8 +1,9 @@
-import React, { useState, useEffect } from 'react';
+import React, { useState } from 'react';
 import Attributs from '../data/attributsJoueur.json';
 import posteRoles from '../data/posteRoles.json';
+import TopTen from './TopTen';
 import '../style/NoteJoueur.css';
-import RankingPost from './RankingPost'; 
+import RankingPost from './RankingPost';
 
 const Note = () => {
   const initialState = Attributs.reduce((acc, attribut) => {
@@ -11,7 +12,6 @@ const Note = () => {
   }, {});
 
   const [values, setValues] = useState(initialState);
-  const [averages, setAverages] = useState({});
 
   const handleChange = (event, id) => {
     const value = event.target.value;
@@ -28,39 +28,27 @@ const Note = () => {
     }
   };
 
-  useEffect(() => {
-    const calculateAverages = () => {
-      const averages = {};
+  const calculateAverages = () => {
+    // Exemple de calcul des moyennes pour chaque poste
+    const averages = posteRoles.reduce((acc, poste) => {
+      const posteName = poste.name;
+      const total = poste.attributs.reduce((sum, attr) => sum + (parseFloat(values[attr]) || 0), 0);
+      const count = poste.attributs.length;
+      acc[posteName] = (total / count).toFixed(2);
+      return acc;
+    }, {});
 
-      posteRoles.forEach(poste => {
-        let sum = 0;
-        let count = 0;
+    return averages;
+  };
 
-        poste.attributs.forEach(attr => {
-          const value = values[attr];
-          if (value) {
-            sum += parseInt(value, 10);
-            count += 1;
-          }
-        });
-
-        if (count > 0) {
-          averages[poste.name] = (sum / count).toFixed(2);
-        }
-      });
-
-      setAverages(averages);
-    };
-
-    calculateAverages();
-  }, [values]);
+  const averages = calculateAverages();
 
   const techniqueAttributes = Attributs.slice(0, 14);
   const mentalAttributes = Attributs.slice(14, 28);
   const physicalAttributes = Attributs.slice(28, 36);
 
   return (
-    <div className="note-ranking-container">
+    <div className='all-container'>
       <div className="notestyle-container">
         <div className="notestyle-section">
           <h3>Technique</h3>
@@ -101,8 +89,8 @@ const Note = () => {
           ))}
         </div>
       </div>
-
-      <RankingPost averages={averages} /> 
+      <RankingPost averages={averages}/>
+      <TopTen averages={averages} />
     </div>
   );
 };
