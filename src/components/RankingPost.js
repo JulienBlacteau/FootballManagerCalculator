@@ -24,20 +24,16 @@ const RankingPost = ({ averages }) => {
           <thead>
             <tr>
               <th>Postes & Rôles</th>
-              <th>Technique</th>
-              <th>Mental</th>
-              <th>Physique</th>
               <th>Moyenne</th>
+              <th>Technique</th>
             </tr>
           </thead>
           <tbody>
             {sortedPostes.map(poste => (
               <tr key={poste.id}>
                 <td>{poste.name}</td>
+                <td>{poste.average ? poste.average : '-'}</td>
                 <td></td>
-                <td></td>
-                <td></td>
-                <td>{poste.average ? poste.average : '-'}</td> 
               </tr>
             ))}
           </tbody>

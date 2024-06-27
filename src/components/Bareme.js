@@ -4,16 +4,16 @@ import '../style/Bareme.css';
 
 const Bareme = () => {
   const rows = [
-    { stars: 5, text: 'top 5' },
-    { stars: 4.5, text: 'top 6 à 10' },
-    { stars: 4, text: 'top 11 à 20' },
-    { stars: 3.5, text: 'top 21 à 35' },
-    { stars: 3, text: 'top 36 à 50' },
-    { stars: 2.5, text: 'top 51 à 70' },
-    { stars: 2, text: 'top 71 à 90'},
-    { stars: 1.5, text: 'top 91 à 110' },
-    { stars: 1, text: 'top 111 à 140' },
-    { stars: 0.5, text: 'au-delà' },
+    { stars: 5, text: 'TOP 5' },
+    { stars: 4.5, text: 'TOP 6 à 10' },
+    { stars: 4, text: 'TOP 11 à 20' },
+    { stars: 3.5, text: 'TOP 21 à 35' },
+    { stars: 3, text: 'TOP 36 à 50' },
+    { stars: 2.5, text: 'TOP 51 à 70' },
+    { stars: 2, text: 'TOP 71 à 90'},
+    { stars: 1.5, text: 'TOP 91 à 110' },
+    { stars: 1, text: 'TOP 111 à 140' },
+    { stars: 0.5, text: '141 et plus' },
   ];
 
   return (
