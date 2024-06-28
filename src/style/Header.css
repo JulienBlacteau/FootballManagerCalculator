@@ -5,3 +5,16 @@
 .logo{
   margin-inline-start: 30px ;
 }
+
+@media only screen and (max-width: 1024px) {
+  
+  .header{
+    display: flex;
+    justify-content: center ;
+  }
+  
+  .logo{
+    margin-inline-start: 0;
+    width: 40%;
+  }
+}

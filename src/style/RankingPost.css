@@ -11,6 +11,7 @@
 }
 
 .ranking-post-title {
+    
     text-align: center;
     margin-bottom: 20px;
     color: #FFF;
@@ -27,6 +28,7 @@ table {
 }
 
 th, td {
+    
     border: 1px solid #FFF;
     padding-top: 5px;
     padding-bottom: 5px;
@@ -43,4 +45,52 @@ th {
 
 td {
     font-size: 18px;
+}
+
+@media only screen and (min-width: 1480px) and (max-width: 1600px) {
+    td {
+    font-size: 16px;
+    }
+}
+
+@media only screen and (min-width: 1320px) and (max-width: 1479px) {
+    td {
+    font-size: 14px;
+    }
+    th {
+    font-size: 18px;
+    }
+}
+
+@media only screen and (min-width: 1070px) and (max-width: 1319px) {
+    td {
+    font-size: 12px;
+    }
+    th {
+    font-size: 12px;
+    }
+}
+
+@media only screen and (max-width: 1069px) {
+    td {
+    font-size: 10px;
+    }
+    th {
+    font-size: 10px;
+    }
+}
+
+@media only screen and (max-width: 1024px) {
+    .ranking-post-container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        border: 4px solid rgba(255, 255, 255, 0.1);
+        box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.250);
+        width: 100%;
+        padding: 0px;
+        max-height: 40vh; 
+        overflow-y: auto;  
+    }
+
 }
