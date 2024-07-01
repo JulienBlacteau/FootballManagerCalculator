@@ -54,4 +54,16 @@
     button:hover {
         font-weight: bold;
     }
+
+    .link-login{
+        color: #3F597B;
+        display: flex;
+        justify-content: center;
+        text-decoration: none;
+        margin-top: 2%;
+    }
+
+    .link-login:hover{
+        font-weight: bold;
+    }
     

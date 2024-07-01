@@ -5,7 +5,6 @@ import { Link } from 'react-router-dom';
 const LoginPage = () => {
   const [form, setForm] = useState({
     username: '',
-    email: '',
     password: ''
   });
 
@@ -49,7 +48,7 @@ const LoginPage = () => {
           />
         </div>
         <button type="submit">Se connecter</button>
-        <Link to="/register">
+        <Link className='link-register' to="/register">
           <a>Pas encore inscrit ? Par ici !</a>
         </Link>
       </form>
