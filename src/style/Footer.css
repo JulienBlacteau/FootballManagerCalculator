@@ -1,7 +1,7 @@
 .footer {
     background-color: white;
     color: #3F597B;
-    
+    z-index: 1;
     padding: 1rem 0;
   }
 

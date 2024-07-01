@@ -16,11 +16,12 @@
 .app-footer {
   text-align: center;
   align-items: center;
+  z-index: 1;
 }
 
 .app-main {
   flex: 1;
-  margin: 10%;
+  margin: 9.5%;
   display: flex;
   justify-content: center;
   align-items: center;
