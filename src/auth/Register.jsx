@@ -1,8 +1,8 @@
 import React, { useState } from 'react';
-import '../style/LoginPage.css';
+import '../style/Register.css';
 import { Link } from 'react-router-dom';
 
-const LoginPage = () => {
+const Register = () => {
   const [form, setForm] = useState({
     username: '',
     email: '',
@@ -23,9 +23,9 @@ const LoginPage = () => {
   };
 
   return (
-    <div className="login-page">
-      <form className="login-form" onSubmit={handleSubmit}>
-        <h2>Connexion</h2>
+    <div className="register-page">
+      <form className="register-form" onSubmit={handleSubmit}>
+        <h2>Inscription</h2>
         <div className="form-group">
           <label htmlFor="username">Pseudo</label>
           <input
@@ -33,6 +33,17 @@ const LoginPage = () => {
             id="username"
             name="username"
             value={form.username}
+            onChange={handleChange}
+            required
+          />
+        </div>
+        <div className="form-group">
+          <label htmlFor="email">Email</label>
+          <input
+            type="email"
+            id="email"
+            name="email"
+            value={form.email}
             onChange={handleChange}
             required
           />
@@ -48,13 +59,15 @@ const LoginPage = () => {
             required
           />
         </div>
-        <button type="submit">Se connecter</button>
-        <Link to="/register">
-          <a>Pas encore inscrit ? Par ici !</a>
+        <button type="submit">S'inscrire</button>
+
+        <Link to="/login">
+          <a>Déjà inscrit ? Par ici !</a>
         </Link>
+
       </form>
     </div>
   );
 };
 
-export default LoginPage;
+export default Register;
