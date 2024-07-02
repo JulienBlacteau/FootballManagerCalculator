@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import Attributs from '../data/attributsJoueur.json';
 import posteRoles from '../data/posteRoles.json';
 import RankingPost from './RankingPost';
-import '../style/NoteJoueur.css';
+import '../style/components/NoteJoueur.css';
 import Bareme from './Bareme';
 
 const NoteJoueur = () => {

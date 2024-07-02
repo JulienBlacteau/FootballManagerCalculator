@@ -1,7 +1,7 @@
 // Bareme.js
 import React from 'react';
 import Rating from 'react-rating-stars-component';
-import '../style/Bareme.css'; // Pour ajouter du style si nécessaire
+import '../style/components/Bareme.css'; // Pour ajouter du style si nécessaire
 
 const Bareme = () => {
   // Création des lignes avec étoiles et chaînes de caractères

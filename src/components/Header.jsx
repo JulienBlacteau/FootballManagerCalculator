@@ -1,6 +1,6 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import '../style/Header.css';
+import '../style/components/Header.css';
 import { ReactComponent as Logo } from '../assets/images/logo-fmc.svg';
 import userImage from '../assets/images/user.png';
 

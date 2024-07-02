@@ -1,5 +1,5 @@
 import React from 'react';
-import '../style/RankingPost.css';
+import '../style/components/RankingPost.css';
 import posteRoles from '../data/posteRoles.json';
 
 const RankingPost = ({ averages }) => {
