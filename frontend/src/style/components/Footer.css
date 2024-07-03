@@ -1,7 +1,22 @@
 .footer {
-    background-color: white;
-    color: #3F597B;
-    
-    padding: 1rem 0;
+height: 50px;
+width: 100%;
+background-color: white;
+color: #3F597B;
+padding: 1rem 0;
+}
+
+@media only screen and (max-width: 1024px) {
+  .footer {
+    height: 80%;
+    width: 100%;
   }
+}
+
+@media only screen and (max-width: 768px) {
+  .footer {
+    height: 60%;
+    width: 100%;
+  }
+}
 

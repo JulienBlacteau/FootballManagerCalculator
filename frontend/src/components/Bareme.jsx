@@ -18,7 +18,7 @@ const Bareme = () => {
         <thead>
           <tr>
             <th>Étoiles</th>
-            <th>Description</th>
+            <th>Championnat</th>
           </tr>
         </thead>
         <tbody>
