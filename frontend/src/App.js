@@ -3,8 +3,8 @@ import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 import Header from './components/Header';
 import Footer from './components/Footer';
 import Note from './components/NoteJoueur';
-import LoginPage from './auth/LoginPage';
-import Register from './auth/Register';
+import LoginPage from './pages/LoginPage';
+import Register from './pages/Register';
 
 import './App.css';
 
@@ -20,7 +20,6 @@ function App() {
             <Route path="/login" element={<LoginPage />} />
             <Route path="/register" element={<Register />} />
             <Route path="/" element={<Note />} />
-            {/* Ajoutez d'autres routes ici selon vos besoins */}
           </Routes>
         </main>
         <footer className='app-footer'>

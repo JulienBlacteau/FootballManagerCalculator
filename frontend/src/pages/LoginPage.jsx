@@ -1,11 +1,10 @@
 import React, { useState } from 'react';
-import '../style/auth/Register.css';
+import '../style/pages/LoginPage.css';
 import { Link } from 'react-router-dom';
 
-const Register = () => {
+const LoginPage = () => {
   const [form, setForm] = useState({
     username: '',
-    email: '',
     password: ''
   });
 
@@ -23,9 +22,9 @@ const Register = () => {
   };
 
   return (
-    <div className="register-page">
-      <form className="register-form" onSubmit={handleSubmit}>
-        <h2>Inscription</h2>
+    <div className="login-page">
+      <form className="login-form" onSubmit={handleSubmit}>
+        <h2>Connexion</h2>
         <div className="form-group">
           <label htmlFor="username">Pseudo</label>
           <input
@@ -33,17 +32,6 @@ const Register = () => {
             id="username"
             name="username"
             value={form.username}
-            onChange={handleChange}
-            required
-          />
-        </div>
-        <div className="form-group">
-          <label htmlFor="email">Email</label>
-          <input
-            type="email"
-            id="email"
-            name="email"
-            value={form.email}
             onChange={handleChange}
             required
           />
@@ -59,15 +47,13 @@ const Register = () => {
             required
           />
         </div>
-        <button type="submit">S'inscrire</button>
-
-        <Link className='link-login' to="/login">
-          <a >Déjà inscrit ? Par ici !</a>
+        <button type="submit">Se connecter</button>
+        <Link className='link-register' to="/register">
+          <a>Pas encore inscrit ? Par ici !</a>
         </Link>
-
       </form>
     </div>
   );
 };
 
-export default Register;
+export default LoginPage;
