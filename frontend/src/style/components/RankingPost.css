@@ -62,7 +62,7 @@ td {
     }
 }
 
-@media only screen and (min-width: 1070px) and (max-width: 1319px) {
+@media only screen and (min-width: 1081px) and (max-width: 1319px) {
     td {
     font-size: 12px;
     }
@@ -71,16 +71,14 @@ td {
     }
 }
 
-@media only screen and (max-width: 1069px) {
+@media only screen and (max-width: 1080px) {
     td {
-    font-size: 10px;
+    font-size: 16px;
     }
     th {
-    font-size: 10px;
+    font-size: 16px;
     }
-}
 
-@media only screen and (max-width: 1024px) {
     .ranking-post-container {
         display: flex;
         flex-direction: column;
@@ -89,7 +87,7 @@ td {
         box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.250);
         width: 100%;
         padding: 0px;
-        max-height: 40vh; 
+        max-height: 35vh; 
         overflow-y: auto;  
     }
 
